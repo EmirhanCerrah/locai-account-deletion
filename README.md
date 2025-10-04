@@ -9,9 +9,9 @@ Bu sayfa GitHub Pages üzerinden yayınlanmaktadır:
 
 ## 📋 İçerik
 
-- Hesap silme adımları
-- Uygulama içi hesap silme rehberi
-- E-posta ile hesap silme talebi
+- **Otomatik hesap silme** - Uygulama içinde anında gerçekleşir
+- Firebase entegrasyonu ile tam silme (Firestore + Authentication)
+- Yedek e-posta silme yöntemi (uygulamaya erişim yoksa)
 - GDPR ve Google Play uyumluluk bilgileri
 
 ## 🚀 Kullanım
@@ -23,8 +23,10 @@ Data safety → Data deletion → Account deletion URL
 
 ## 📧 Destek
 
-Kullanıcılar hesap silme için şu e-postaya yazabilir:
-support@locai.app (kendi destek e-postanızı buraya yazın)
+**Birincil Yöntem:** Uygulama içindeki "Hesabı Sil" butonu (otomatik ve anında)
+
+**Yedek Yöntem (sadece uygulamaya erişim yoksa):**
+E-posta: support@locai.app (kendi destek e-postanızı buraya yazın)
 
 ---
 
