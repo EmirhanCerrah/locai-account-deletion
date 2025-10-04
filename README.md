@@ -5,7 +5,7 @@ Bu sayfa LOCAI Travel App kullanıcılarının hesap silme taleplerini yönetmek
 ## 🔗 Canlı Sayfa
 
 Bu sayfa GitHub Pages üzerinden yayınlanmaktadır:
-**https://[kullaniciadi].github.io/locai-account-deletion/**
+**https://EmirhanCerrah.github.io/locai-account-deletion/**
 
 ## 📋 İçerik
 
@@ -26,7 +26,7 @@ Data safety → Data deletion → Account deletion URL
 **Birincil Yöntem:** Uygulama içindeki "Hesabı Sil" butonu (otomatik ve anında)
 
 **Yedek Yöntem (sadece uygulamaya erişim yoksa):**
-E-posta: support@locai.app (kendi destek e-postanızı buraya yazın)
+E-posta: localtraveler.info.e@gmail.com
 
 ---
 
