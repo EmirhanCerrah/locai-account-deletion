@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCAI - Hesap Silme</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+        
+        .warning-title {
+            font-weight: bold;
+            color: #856404;
+            margin-bottom: 10px;
+        }
+        
+        .info {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+        
+        .info h3 {
+            color: #0c5460;
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .method {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .method h3 {
+            color: #495057;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        
+        .step {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .step:before {
+            content: "▶";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+        }
+        
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #dee2e6;
+            text-align: center;
+            color: #6c757d;
+            font-size: 14px;
+        }
+        
+        .contact {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        
+        .contact strong {
+            color: #495057;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗑️ LOCAI - Hesap Silme</h1>
+        
+        <div class="warning">
+            <div class="warning-title">⚠️ ÖNEMLİ UYARI</div>
+            <p>Hesabınızı silerseniz, tüm verileriniz kalıcı olarak silinecek ve bu işlem <strong>GERİ ALINAMAZ</strong>.</p>
+        </div>
+        
+        <div class="info">
+            <h3>📋 Silinecek Veriler:</h3>
+            <ul>
+                <li>✓ Profil bilgileriniz (isim, soyisim, fotoğraf)</li>
+                <li>✓ Tüm sohbet geçmişiniz</li>
+                <li>✓ Gönderdiğiniz ve aldığınız mesajlar</li>
+                <li>✓ Sorularınız ve cevaplarınız</li>
+                <li>✓ Gezi planlarınız</li>
+                <li>✓ İlgi alanları ve tercihleriniz</li>
+                <li>✓ Firebase Authentication kaydınız</li>
+            </ul>
+        </div>
+        
+        <div class="method">
+            <h3>📱 Uygulama İçinden Hesap Silme (Önerilen)</h3>
+            <div class="step">LOCAI uygulamasını açın</div>
+            <div class="step">Sol üst menüden "Profili Görüntüle" seçeneğine tıklayın</div>
+            <div class="step">"Profili Düzenle" butonuna basın</div>
+            <div class="step">Sayfanın altında yer alan "⚠️ Hesabı Sil" butonuna tıklayın</div>
+            <div class="step">Onay dialogunda "Evet, Sil" butonuna basın</div>
+            <div class="step">Hesabınız ve tüm verileriniz kalıcı olarak silinecektir</div>
+        </div>
+        
+        <div class="method">
+            <h3>✉️ E-posta ile Hesap Silme Talebi</h3>
+            <p>Eğer uygulamaya erişiminiz yoksa, hesap silme talebinizi e-posta ile gönderebilirsiniz:</p>
+            <div class="contact">
+                <p><strong>E-posta:</strong> support@locai.app (veya gerçek destek e-postanız)</p>
+                <p><strong>Konu:</strong> Hesap Silme Talebi</p>
+                <p><strong>İçerik:</strong> Kayıtlı e-posta adresiniz ve "Hesabımın silinmesini talep ediyorum" yazınız</p>
+                <p style="margin-top: 10px; color: #6c757d; font-size: 13px;">
+                    📅 Talebiniz <strong>5 iş günü</strong> içinde işleme alınacaktır.
+                </p>
+            </div>
+        </div>
+        
+        <div class="info">
+            <h3>🔒 Veri Koruma ve Gizlilik</h3>
+            <p>Hesap silme işlemi GDPR ve Google Play politikalarına uygun olarak gerçekleştirilir. Tüm verileriniz güvenli bir şekilde ve geri dönüşümsüz olarak silinir.</p>
+        </div>
+        
+        <div class="footer">
+            <p>LOCAI Travel App - © 2025</p>
+            <p style="margin-top: 10px;">Herhangi bir sorunuz için: support@locai.app</p>
+        </div>
+    </div>
+</body>
+</html>
+
